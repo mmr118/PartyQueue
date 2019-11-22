@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		9740084B236E2E9800580325 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9740084A236E2E9800580325 /* AppDelegate.swift */; };
 		9740084D236E2E9800580325 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9740084C236E2E9800580325 /* SceneDelegate.swift */; };
-		9740084F236E2E9800580325 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9740084E236E2E9800580325 /* ViewController.swift */; };
+		9740084F236E2E9800580325 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9740084E236E2E9800580325 /* DashboardViewController.swift */; };
 		97400852236E2E9800580325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97400850236E2E9800580325 /* Main.storyboard */; };
 		97400855236E2E9800580325 /* PartyQueue.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97400853236E2E9800580325 /* PartyQueue.xcdatamodeld */; };
 		97400857236E2E9900580325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97400856236E2E9900580325 /* Assets.xcassets */; };
 		9740085A236E2E9900580325 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97400858236E2E9900580325 /* LaunchScreen.storyboard */; };
 		97400865236E2E9900580325 /* PartyQueueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97400864236E2E9900580325 /* PartyQueueTests.swift */; };
+		97400880236E33FB00580325 /* SpotifyiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9740087E236E33F700580325 /* SpotifyiOS.framework */; };
+		97400881236E33FB00580325 /* SpotifyiOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9740087E236E33F700580325 /* SpotifyiOS.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		97400883236E347600580325 /* PartyQueue-Bridging-Header.h in Sources */ = {isa = PBXBuildFile; fileRef = 97400874236E316500580325 /* PartyQueue-Bridging-Header.h */; };
+		9779EA8323842D1900A3D80A /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9779EA8223842D1900A3D80A /* Utilities.swift */; };
+		9779EA852384441C00A3D80A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9779EA842384441C00A3D80A /* LoginViewController.swift */; };
+		D943852AFE31221BD161BB49 /* libPods-PartyQueue.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEEF296834E82CD627E080A /* libPods-PartyQueue.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,11 +33,28 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		97400882236E33FB00580325 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				97400881236E33FB00580325 /* SpotifyiOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		24A394E3E4305FD1D3FE4434 /* Pods-PartyQueue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PartyQueue.debug.xcconfig"; path = "Target Support Files/Pods-PartyQueue/Pods-PartyQueue.debug.xcconfig"; sourceTree = "<group>"; };
+		3DEEF296834E82CD627E080A /* libPods-PartyQueue.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PartyQueue.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77F1C5B77344B68FCBADDF2A /* Pods-PartyQueue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PartyQueue.release.xcconfig"; path = "Target Support Files/Pods-PartyQueue/Pods-PartyQueue.release.xcconfig"; sourceTree = "<group>"; };
 		97400847236E2E9800580325 /* PartyQueue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PartyQueue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9740084A236E2E9800580325 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9740084C236E2E9800580325 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9740084E236E2E9800580325 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9740084E236E2E9800580325 /* DashboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
 		97400851236E2E9800580325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97400854236E2E9800580325 /* PartyQueue.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PartyQueue.xcdatamodel; sourceTree = "<group>"; };
 		97400856236E2E9900580325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,6 +63,10 @@
 		97400860236E2E9900580325 /* PartyQueueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PartyQueueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97400864236E2E9900580325 /* PartyQueueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartyQueueTests.swift; sourceTree = "<group>"; };
 		97400866236E2E9900580325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97400874236E316500580325 /* PartyQueue-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PartyQueue-Bridging-Header.h"; sourceTree = "<group>"; };
+		9740087E236E33F700580325 /* SpotifyiOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyiOS.framework; sourceTree = "<group>"; };
+		9779EA8223842D1900A3D80A /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		9779EA842384441C00A3D80A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97400880236E33FB00580325 /* SpotifyiOS.framework in Frameworks */,
+				D943852AFE31221BD161BB49 /* libPods-PartyQueue.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +89,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F65B612F473F95F541F7794 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24A394E3E4305FD1D3FE4434 /* Pods-PartyQueue.debug.xcconfig */,
+				77F1C5B77344B68FCBADDF2A /* Pods-PartyQueue.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		9740083E236E2E9800580325 = {
 			isa = PBXGroup;
 			children = (
 				97400849236E2E9800580325 /* PartyQueue */,
 				97400863236E2E9900580325 /* PartyQueueTests */,
 				97400848236E2E9800580325 /* Products */,
+				9740086F236E2F3A00580325 /* Frameworks */,
+				7F65B612F473F95F541F7794 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,14 +121,17 @@
 		97400849236E2E9800580325 /* PartyQueue */ = {
 			isa = PBXGroup;
 			children = (
+				9779EA8223842D1900A3D80A /* Utilities.swift */,
+				9740084E236E2E9800580325 /* DashboardViewController.swift */,
+				9779EA842384441C00A3D80A /* LoginViewController.swift */,
+				97400856236E2E9900580325 /* Assets.xcassets */,
 				9740084A236E2E9800580325 /* AppDelegate.swift */,
 				9740084C236E2E9800580325 /* SceneDelegate.swift */,
-				9740084E236E2E9800580325 /* ViewController.swift */,
 				97400850236E2E9800580325 /* Main.storyboard */,
-				97400856236E2E9900580325 /* Assets.xcassets */,
 				97400858236E2E9900580325 /* LaunchScreen.storyboard */,
 				9740085B236E2E9900580325 /* Info.plist */,
 				97400853236E2E9800580325 /* PartyQueue.xcdatamodeld */,
+				97400874236E316500580325 /* PartyQueue-Bridging-Header.h */,
 			);
 			path = PartyQueue;
 			sourceTree = "<group>";
@@ -102,6 +145,15 @@
 			path = PartyQueueTests;
 			sourceTree = "<group>";
 		};
+		9740086F236E2F3A00580325 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9740087E236E33F700580325 /* SpotifyiOS.framework */,
+				3DEEF296834E82CD627E080A /* libPods-PartyQueue.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -109,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97400869236E2E9900580325 /* Build configuration list for PBXNativeTarget "PartyQueue" */;
 			buildPhases = (
+				7EF02F3AA7FED56E1A405F57 /* [CP] Check Pods Manifest.lock */,
 				97400843236E2E9800580325 /* Sources */,
 				97400844236E2E9800580325 /* Frameworks */,
 				97400845236E2E9800580325 /* Resources */,
+				97400882236E33FB00580325 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +206,7 @@
 				TargetAttributes = {
 					97400846236E2E9800580325 = {
 						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
 					};
 					9740085F236E2E9900580325 = {
 						CreatedOnToolsVersion = 11.0;
@@ -198,13 +253,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7EF02F3AA7FED56E1A405F57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PartyQueue-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		97400843236E2E9800580325 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9779EA852384441C00A3D80A /* LoginViewController.swift in Sources */,
+				97400883236E347600580325 /* PartyQueue-Bridging-Header.h in Sources */,
 				97400855236E2E9800580325 /* PartyQueue.xcdatamodeld in Sources */,
-				9740084F236E2E9800580325 /* ViewController.swift in Sources */,
+				9779EA8323842D1900A3D80A /* Utilities.swift in Sources */,
+				9740084F236E2E9800580325 /* DashboardViewController.swift in Sources */,
 				9740084B236E2E9800580325 /* AppDelegate.swift in Sources */,
 				9740084D236E2E9800580325 /* SceneDelegate.swift in Sources */,
 			);
@@ -302,6 +385,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -355,6 +439,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -364,17 +449,26 @@
 		};
 		9740086A236E2E9900580325 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24A394E3E4305FD1D3FE4434 /* Pods-PartyQueue.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4DHQU43U3E;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = PartyQueue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.notmoniapps.PartyQueue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PartyQueue/PartyQueue-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -382,17 +476,25 @@
 		};
 		9740086B236E2E9900580325 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77F1C5B77344B68FCBADDF2A /* Pods-PartyQueue.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4DHQU43U3E;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = PartyQueue/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.notmoniapps.PartyQueue;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PartyQueue/PartyQueue-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -412,6 +514,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.notmoniapps.PartyQueueTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -434,6 +537,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.notmoniapps.PartyQueueTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
